@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>reactjs-redux</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+    .row.content {height: 1000px}
+    
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Hplus's Blog</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="#section2">Reactjs</a></li>
+        <li><a href="#section3">Redux</a></li>
+        <li><a href="#section4">About</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Giới thiệu về ReactJS</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by hoangquocpham, April 28, 2017.</h5>
+      <h5><span class="label label-danger">JSX</span> <span class="label label-primary">Components</span></h5><br>
+      <p>React.JS là một thư viện Javascript dùng để xây dựng giao diện người dùng. React được ví như phần View của mô hình MVC.
+         React được xây dựng xung quanh các Component, chứ không dùng template như các framework khác
+        ...
+      </p>
+      <button class="btn btn-info">READ MORE</button>
+      <br><br>
+      
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Giới thiệu về Redux</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by hoangquocpham, April 28, 2017.</h5>
+      <h5><span class="label label-danger">store</span> <span class="label label-success">Action</span> <span class="label label-primary">Reducers</span></h5><br>
+      <p>
+          Redux js là một thư viện Javascript giúp tạo ra thành một lớp quản lý trạng thái của ứng dụng. Được dựa trên nền tảng tư tưởng của kiến trúc Flux do Facebook giới thiệu, do vậy Redux thường là bộ đôi kết hợp hoàn hảo với React (React Js và React Native)...  
+      </p>
+      <button class="btn btn-info">READ MORE</button>
+      <hr>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p></p>
+</footer>
+
+</body>
+</html>
