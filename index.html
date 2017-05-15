@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>reactjs-redux</title>
+  <title>Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -10,41 +10,42 @@
   <style>
 
     .row.content {height: 1000px}
-    
+
     .sidenav {
       background-color: #f1f1f1;
       height: 100%;
     }
-    
+
     footer {
       background-color: #555;
       color: white;
       padding: 15px;
     }
-    
+
     @media screen and (max-width: 767px) {
       .sidenav {
         height: auto;
         padding: 15px;
       }
-      .row.content {height: auto;} 
+      .row.content {height: auto;}
     }
   </style>
 </head>
 <body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <a class="navbar-brand" href="./index.html">HPlus's</a>
 
-<div class="container-fluid">
+</nav>
+<div class="container-fluid" style="margin-top:52px">
   <div class="row content">
     <div class="col-sm-3 sidenav">
-      <h4>Hplus's Blog</h4>
       <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1">Home</a></li>
-        <li><a href="#section2">Reactjs</a></li>
-        <li><a href="#section3">Redux</a></li>
-        <li><a href="#section4">About</a></li>
+        <li class="active"><a href="./index.html">Home</a></li>
+        <li><a href="./reactjsredux.html">ReactJS + Redux</a></li>
+        <li><a href="./about.html">About</a></li>
       </ul><br>
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search Blog..">
+        <input type="text" class="form-control" placeholder="Search..">
         <span class="input-group-btn">
           <button class="btn btn-default" type="button">
             <span class="glyphicon glyphicon-search"></span>
@@ -54,34 +55,26 @@
     </div>
 
     <div class="col-sm-9">
-      <h4><small>RECENT POSTS</small></h4>
+      <h2>Seminar: Tìm hiểu đề tài React JS + Redux</h2>
       <hr>
-      <h2>Giới thiệu về ReactJS</h2>
-      <h5><span class="glyphicon glyphicon-time"></span> Post by hoangquocpham, April 28, 2017.</h5>
+      <h2>ReactJS</h2>
       <h5><span class="label label-danger">JSX</span> <span class="label label-primary">Components</span></h5><br>
-      <p>React.JS là một thư viện Javascript dùng để xây dựng giao diện người dùng. React được ví như phần View của mô hình MVC.
-         React được xây dựng xung quanh các Component, chứ không dùng template như các framework khác
-        ...
-      </p>
-      <button class="btn btn-info">READ MORE</button>
-      <br><br>
-      
-      <h4><small>RECENT POSTS</small></h4>
+      <li>React là một thư viện viết bằng javascript, dùng để xây dựng giao diện người dùng(User Interface – UI). React là một mã nguồn mở được xây dựng bởi chính Facebook. Rất nhiều thương hiệu hàng đầu thế giới đang sử dụng React, như là Facebook và Instagram.</li>
+      <li>Nếu bạn đã biết mô hình MVC, thì ReactJS chính là "V" - View. Sức mạnh khủng khiếp mà Facebook mang đến trong React, đó chính là mô hình DOM, làm tăng khả năng trình diễn các đối tượng trên nền web một cách hiệu quả & tốc độ mượt hơn bất kì Java Script Framework nào trước đây.</li
+      </hr>
       <hr>
-      <h2>Giới thiệu về Redux</h2>
-      <h5><span class="glyphicon glyphicon-time"></span> Post by hoangquocpham, April 28, 2017.</h5>
+      <h2>Redux</h2>
       <h5><span class="label label-danger">store</span> <span class="label label-success">Action</span> <span class="label label-primary">Reducers</span></h5><br>
-      <p>
-          Redux js là một thư viện Javascript giúp tạo ra thành một lớp quản lý trạng thái của ứng dụng. Được dựa trên nền tảng tư tưởng của kiến trúc Flux do Facebook giới thiệu, do vậy Redux thường là bộ đôi kết hợp hoàn hảo với React (React Js và React Native)...  
-      </p>
-      <button class="btn btn-info">READ MORE</button>
-      <hr>
+      <li>Redux js là một thư viện Javascript giúp tạo ra thành một lớp quản lý trạng thái của ứng dụng. Được dựa trên nền tảng tư tưởng của kiến trúc Flux do Facebook giới thiệu, do vậy Redux thường là bộ đôi kết hợp hoàn hảo với React (React Js và React Native)</li>
+      </hr>
     </div>
   </div>
 </div>
 
 <footer class="container-fluid">
-  <p></p>
+  <center>
+  <p>Made by Hplus Team</p>
+</center>
 </footer>
 
 </body>
